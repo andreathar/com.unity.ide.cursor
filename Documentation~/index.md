@@ -1,28 +1,69 @@
-# Code Editor Package for Visual Studio
+# Cursor IDE Integration for Unity 6
 
-## About Visual Studio Editor
+Welcome to the Cursor IDE Integration package documentation. This package provides seamless integration between Unity 6 and Cursor IDE, with special focus on WebGL game development optimization.
 
-The Visual Studio Editor package provides the Unity Editor with support for Unity-specific features from the [Visual Studio Tools for Unity](https://docs.microsoft.com/en-us/visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity) extension in [Visual Studio](https://visualstudio.microsoft.com/) and [Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/). These include IntelliSense auto-complete suggestions, C# editing, and debugging.
+## Table of Contents
 
-## Installation
+### Getting Started
 
-This package is a built-in package and installed by default.
+- [Installation Guide](manual/installation.md)
+- [Quick Start Tutorial](manual/quick-start.md)
+- [Configuration Options](manual/configuration.md)
 
-**Note**: If you’re using a version of the Unity Editor before 2019.4, you’ll need to install this package through the package manager.
+### Core Features
 
-## Requirements
+- [Unity 6 Integration](manual/unity6-integration.md)
+- [Code Navigation](manual/code-navigation.md)
+- [Debugging Tools](manual/debugging.md)
+- [Task Automation](manual/task-automation.md)
 
-This version of the Visual Studio Editor package is compatible with the following versions of the Unity Editor:
+### WebGL Development
 
-* 2019.4 and later
+- [WebGL Overview](manual/webgl/overview.md)
+- [Build Pipeline](manual/webgl/build-pipeline.md)
+- [Performance Optimization](manual/webgl/performance.md)
+- [Browser Testing](manual/webgl/browser-testing.md)
+- [Memory Management](manual/webgl/memory-management.md)
 
-To use this package, you must have the following third-party products installed:
+### Best Practices
 
-* **On Windows**: Visual Studio 2019 version 16.9 or newer with Visual Studio Tools for Unity 4.0.9 or newer.
-* **On macOS**: Visual Studio for Mac 2019 version 8.9 or newer with Visual Studio Tools for Unity 2.0.9 or newer.
+- [Code Organization](manual/best-practices/code-organization.md)
+- [WebGL Development](manual/best-practices/webgl-development.md)
+- [Performance Tips](manual/best-practices/performance.md)
+- [Common Pitfalls](manual/best-practices/common-pitfalls.md)
 
-For more information about using Visual Studio with Unity, see [Microsoft’s Visual Studio Tools for Unity documentation](https://docs.microsoft.com/en-us/visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity).
+### API Reference
 
-## Submitting issues
+- [Core API](api/core.md)
+- [WebGL API](api/webgl.md)
+- [Editor Extensions](api/editor.md)
+- [Automation API](api/automation.md)
 
-This package is maintained by Microsoft and Unity. Submit issues directly from Visual Studio and Visual Studio for Mac from the **Help** > **Submit Feedback** > **Report a Problem** menu. Unity will make this package accessible to the public on GitHub in the future.
+### Advanced Topics
+
+- [Custom Tool Integration](manual/advanced/custom-tools.md)
+- [CI/CD Integration](manual/advanced/ci-cd.md)
+- [Plugin Development](manual/advanced/plugin-development.md)
+- [Security Best Practices](manual/advanced/security.md)
+
+### Troubleshooting
+
+- [Common Issues](manual/troubleshooting/common-issues.md)
+- [Known Limitations](manual/troubleshooting/limitations.md)
+- [Error Reference](manual/troubleshooting/error-reference.md)
+- [Support Resources](manual/troubleshooting/support.md)
+
+## Additional Resources
+
+- [GitHub Repository](https://github.com/unity/com.unity.ide.cursor)
+- [Unity Forum Thread](https://forum.unity.com/threads/cursor-ide-integration.12345/)
+- [Issue Tracker](https://github.com/unity/com.unity.ide.cursor/issues)
+- [Changelog](../CHANGELOG.md)
+
+## Contributing
+
+We welcome contributions! Please see our [Contributing Guide](../CONTRIBUTING.md) for details on how to submit pull requests, report issues, and contribute to the project.
+
+## License
+
+This package is licensed under the MIT License. See the [LICENSE](../LICENSE.md) file for details.

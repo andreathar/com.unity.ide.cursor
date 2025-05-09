@@ -1,20 +1,20 @@
 {
-   "name": "Unity.IDE.Cursor",
-   "rootNamespace": "Unity.IDE.Cursor",
-   "references": [],
-   "includePlatforms": [],
-   "excludePlatforms": [],
-   "allowUnsafeCode": false,
-   "overrideReferences": false,
-   "precompiledReferences": [],
-   "autoReferenced": true,
-   "defineConstraints": [],
-   "versionDefines": [
-      {
-         "name": "com.unity.modules.unitywebrequest",
-         "expression": "1.0.0",
-         "define": "UNITY_WEBREQUEST"
-      }
-   ],
-   "noEngineReferences": false
+    "name": "Unity.IDE.Cursor",
+    "rootNamespace": "Unity.IDE.Cursor",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.modules.unitywebrequest",
+            "expression": "1.0.0",
+            "define": "UNITY_WEBREQUEST"
+        }
+    ],
+    "noEngineReferences": false
 }
