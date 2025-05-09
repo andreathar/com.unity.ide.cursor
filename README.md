@@ -1,105 +1,57 @@
-# Cursor IDE Integration for Unity 6
+# Cursor IDE Integration for Unity
 
-Enhance your Unity 6 development workflow with seamless Cursor IDE integration, featuring advanced WebGL optimization tools and automated task management.
+## Overview
 
-## Features
-
-- **Unity 6 Native Integration**
-  - Seamless project synchronization
-  - Advanced code completion
-  - Real-time error detection
-  - Smart code navigation
-
-- **WebGL Development Optimization**
-  - Automated build pipeline
-  - Browser testing automation
-  - Performance profiling tools
-  - Memory optimization helpers
-
-- **Code Quality Tools**
-  - Automated code analysis
-  - Best practices enforcement
-  - Unity-specific linting rules
-  - Code style consistency checks
-
-- **Task Automation**
-  - Build process automation
-  - Asset optimization
-  - Scene validation
-  - Deployment helpers
+This package provides seamless integration between Unity 2022.3 LTS and Cursor IDE, offering enhanced development features for Unity projects, with special focus on WebGL development.
 
 ## Requirements
 
-- Unity 6.0 or higher
+- Unity 2022.3.19f1 or later
 - Cursor IDE (latest version)
-- .NET SDK 8.0 or higher
-- WebGL build support module installed
+- .NET SDK 4.7.1 or higher
 
 ## Installation
 
-1. Open Unity Package Manager
-2. Click the + button in the top-left corner
-3. Select "Add package from git URL"
-4. Enter: `https://github.com/unity/com.unity.ide.cursor.git`
+### Via Unity Package Manager
 
-Or add to your `manifest.json`:
+1. Open the Package Manager window (Window > Package Manager)
+2. Click the "+" button in the top-left corner
+3. Select "Add package from git URL..."
+4. Enter: `com.unity.ide.cursor`
+5. Click "Add"
 
-```json
-{
-  "dependencies": {
-    "com.unity.ide.cursor": "1.0.0"
-  }
-}
-```
+### Manual Installation
 
-## Quick Start
+1. Clone this repository
+2. Copy to your Unity project's `Packages` folder
+3. Restart Unity
 
-1. Install the package
-2. Open your project in Unity 6
-3. Go to Edit > Preferences > External Tools
-4. Select Cursor as your external script editor
-5. Restart Unity to apply changes
+## Features
 
-## Usage
-
-### Basic Integration
-
-```csharp
-// Your scripts will automatically work with Cursor IDE
-public class ExampleScript : MonoBehaviour
-{
-    void Start()
-    {
-        Debug.Log("Cursor IDE integration active!");
-    }
-}
-```
-
-### WebGL Optimization
-
-```csharp
-// Use the included WebGL optimization attributes
-[WebGLOptimized]
-public class WebGLAwareComponent : MonoBehaviour
-{
-    // Your WebGL-optimized code here
-}
-```
+- Enhanced script creation and management
+- Intelligent code completion
+- Advanced debugging tools
+- WebGL-specific optimizations
+- Build pipeline automation
+- Assembly management
+- Test framework integration
 
 ## Documentation
 
-- [User Manual](Documentation~/manual/index.md)
+Detailed documentation is available in the `Documentation~` folder:
+
+- [Getting Started](Documentation~/manual/getting-started.md)
 - [API Reference](Documentation~/api/index.md)
-- [WebGL Development Guide](Documentation~/manual/webgl-development.md)
-- [Best Practices](Documentation~/manual/best-practices.md)
+- [Best Practices](Documentation~/manual/best-practices/index.md)
+- [WebGL Development](Documentation~/manual/webgl/index.md)
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on how to contribute to this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This package is licensed under the Unity Companion License. See [LICENSE.md](LICENSE.md) for details.
 
 ## Support
 

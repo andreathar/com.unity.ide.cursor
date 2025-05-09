@@ -2,48 +2,26 @@
   "name": "com.unity.ide.cursor",
   "version": "1.0.0",
   "displayName": "Cursor IDE Integration",
-  "description": "Cursor IDE integration for Unity 6 with WebGL optimization features. Provides enhanced development workflow, code quality tools, and automated task management for WebGL game development.",
-  "unity": "6.0",
-  "unityRelease": "0b1",
-  "documentationUrl": "https://github.com/unity/com.unity.ide.cursor/Documentation~/index.md",
-  "changelogUrl": "https://github.com/unity/com.unity.ide.cursor/CHANGELOG.md",
-  "licensesUrl": "https://github.com/unity/com.unity.ide.cursor/LICENSE.md",
+  "description": "Cursor IDE integration for Unity 2022.3 LTS, providing enhanced scripting, debugging, and WebGL development support.",
+  "unity": "2022.3",
+  "unityRelease": "19f1",
+  "documentationUrl": "https://example.com/cursor-ide/documentation",
+  "changelogUrl": "https://example.com/cursor-ide/changelog",
+  "licensesUrl": "https://example.com/cursor-ide/licensing",
   "dependencies": {
-    "com.unity.modules.jsonserialize": "1.0.0",
-    "com.unity.modules.unitywebrequest": "1.0.0",
-    "com.unity.modules.unitywebrequestwww": "1.0.0"
+    "com.unity.test-framework": "1.1.33",
+    "com.unity.modules.jsonserialize": "1.0.0"
   },
   "keywords": [
     "ide",
     "cursor",
     "webgl",
-    "optimization",
-    "development",
-    "tooling",
-    "automation"
-  ],
-  "category": "Editor",
-  "type": "tool",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/unity/com.unity.ide.cursor.git"
-  },
-  "relatedPackages": {
-    "com.unity.ide.cursor.tests": "1.0.0"
-  },
-  "upmCi": {
-    "footprint": "deadbeefdeadbeefdeadbeefdeadbeefdeadbeef"
-  },
-  "samples": [
-    {
-      "displayName": "WebGL Project Template",
-      "description": "Basic WebGL project template with optimized settings",
-      "path": "Samples~/WebGLTemplate"
-    }
+    "debugging",
+    "scripting"
   ],
   "author": {
-    "name": "Unity Technologies",
-    "email": "unity@example.com",
-    "url": "https://unity.com"
+    "name": "Your Name",
+    "email": "your.email@example.com",
+    "url": "https://your-website.com"
   }
 }
