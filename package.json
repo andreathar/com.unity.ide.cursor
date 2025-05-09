@@ -1,14 +1,49 @@
 {
-  "name": "com.boxqkrtm.ide.cursor",
-  "displayName": "Cursor Editor",
-  "description": "Cursor editor integration for supporting Cursor as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc.",
-  "version": "2.0.24",
-  "unity": "2019.4",
-  "unityRelease": "25f1",
+  "name": "com.unity.ide.cursor",
+  "version": "1.0.0",
+  "displayName": "Cursor IDE Integration",
+  "description": "Cursor IDE integration for Unity 6 with WebGL optimization features. Provides enhanced development workflow, code quality tools, and automated task management for WebGL game development.",
+  "unity": "6.0",
+  "unityRelease": "0b1",
+  "documentationUrl": "https://github.com/unity/com.unity.ide.cursor/Documentation~/index.md",
+  "changelogUrl": "https://github.com/unity/com.unity.ide.cursor/CHANGELOG.md",
+  "licensesUrl": "https://github.com/unity/com.unity.ide.cursor/LICENSE.md",
   "dependencies": {
-    "com.unity.test-framework": "1.1.9"
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.modules.unitywebrequestwww": "1.0.0"
   },
-  "_upm": {
-    "changelog": "Integration:\n\n- Add support for Cursor"
+  "keywords": [
+    "ide",
+    "cursor",
+    "webgl",
+    "optimization",
+    "development",
+    "tooling",
+    "automation"
+  ],
+  "category": "Editor",
+  "type": "tool",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unity/com.unity.ide.cursor.git"
+  },
+  "relatedPackages": {
+    "com.unity.ide.cursor.tests": "1.0.0"
+  },
+  "upmCi": {
+    "footprint": "deadbeefdeadbeefdeadbeefdeadbeefdeadbeef"
+  },
+  "samples": [
+    {
+      "displayName": "WebGL Project Template",
+      "description": "Basic WebGL project template with optimized settings",
+      "path": "Samples~/WebGLTemplate"
+    }
+  ],
+  "author": {
+    "name": "Unity Technologies",
+    "email": "unity@example.com",
+    "url": "https://unity.com"
   }
 }
