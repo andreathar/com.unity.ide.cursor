@@ -1,0 +1,25 @@
+{
+   "name": "Unity.IDE.Cursor.Editor.Tests",
+   "rootNamespace": "Unity.IDE.Cursor.Editor.Tests",
+   "references": [
+      "Unity.IDE.Cursor",
+      "Unity.IDE.Cursor.Editor",
+      "UnityEngine.TestRunner",
+      "UnityEditor.TestRunner"
+   ],
+   "includePlatforms": [
+      "Editor"
+   ],
+   "excludePlatforms": [],
+   "allowUnsafeCode": false,
+   "overrideReferences": true,
+   "precompiledReferences": [
+      "nunit.framework.dll"
+   ],
+   "autoReferenced": false,
+   "defineConstraints": [
+      "UNITY_INCLUDE_TESTS"
+   ],
+   "versionDefines": [],
+   "noEngineReferences": false
+}
